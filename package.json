@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-preset-base",
+  "name": "@anchour/tailwindcss-preset",
   "version": "0.0.1",
   "description": "TailwindCSS base preset for Anchour WordPress / Shopify projects.",
   "main": "index.js",
