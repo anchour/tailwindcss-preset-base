@@ -1,6 +1,6 @@
 # Anchour + TailwindCSS Preset
 
-This preset is responsible for much of the base styles used in the Anchour WordPress base theme.
+This preset is responsible for much of the base styles used in the Anchour WordPress base theme. *This is a WIP*. Seriously, there's barely anything in this preset right now.
 
 ### Plugins
 
