@@ -2,7 +2,7 @@
   "name": "@anchour/tailwindcss-preset",
   "version": "0.0.1",
   "description": "TailwindCSS base preset for Anchour WordPress / Shopify projects.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anchour/tailwindcss-preset-base.git"
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/anchour/tailwindcss-preset-base#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.17",
     "@rollup/plugin-babel": "^5.2.3",
     "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-html": "^0.2.3",
     "@rollup/plugin-node-resolve": "^11.1.1",
     "autoprefixer": "^10.2.4",
     "cssnano": "^4.1.10",
@@ -28,6 +30,8 @@
     "postcss-cli": "^8.3.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.39.0",
+    "rollup-plugin-browsersync": "^1.3.1",
+    "rollup-plugin-delete": "^2.0.0",
     "tailwindcss": "^2.0.3"
   }
 }
