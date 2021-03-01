@@ -16,7 +16,10 @@ var src = {
   theme: {
     extend: {
       color: {
-        current: 'currentColor'
+        current: 'currentColor',
+        transparent: 'transparent',
+        white: '#fff',
+        black: '#000'
       }
     },
     screens
