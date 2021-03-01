@@ -1,10 +1,15 @@
 const button = require('./plugins/button');
+const screens = require('./lib/screens');
 
 module.exports = {
-  extend: {
-    color: {
-      current: 'currentColor',
+  theme: {
+    extend: {
+      color: {
+        current: 'currentColor',
+      },
     },
+
+    screens,
   },
   corePlugins: {
     container: {
