@@ -4,7 +4,7 @@ const screens = require('./lib/screens');
 module.exports = {
   theme: {
     extend: {
-      color: {
+      colors: {
         current: 'currentColor',
         transparent: 'transparent',
         white: '#fff',

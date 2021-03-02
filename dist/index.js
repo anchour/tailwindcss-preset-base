@@ -13,7 +13,7 @@ var screens = {
 var src = {
   theme: {
     extend: {
-      color: {
+      colors: {
         current: 'currentColor',
         transparent: 'transparent',
         white: '#fff',
