@@ -1,7 +1,20 @@
 'use strict';
 
 var button = require('./button.js');
-require('./plugin-adfde571.js');
+var plugin = require('./plugin-adfde571.js');
+
+var row = plugin.plugin(function ({
+  addUtilities
+}) {
+  const utilities = {
+    '.row': {
+      display: 'flex',
+      flexDirection: 'row',
+      flexWrap: 'wrap'
+    }
+  };
+  addUtilities(utilities);
+});
 
 var screens = {
   'sm': '640px',
@@ -27,7 +40,7 @@ var src = {
       padding: '1rem'
     }
   },
-  plugins: [button]
+  plugins: [button, row]
 };
 
 module.exports = src;

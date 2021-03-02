@@ -1,4 +1,5 @@
 const button = require('./plugins/button');
+const row = require('./utilities/row');
 const screens = require('./lib/screens');
 
 module.exports = {
@@ -21,5 +22,6 @@ module.exports = {
   },
   plugins: [
     button,
+    row,
   ]
 };

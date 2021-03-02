@@ -11,13 +11,13 @@ const plugin = require('tailwindcss/plugin');
  * different config object within the Tailwind config dedicated
  * specifically to buttons.
  */
-module.exports = plugin(function ({ addComponents, theme }) {
+module.exports = plugin(function ({ addComponents, config }) {
   const components = {
     '.btn': {
       borderWidth: '2px',
-      borderColor: theme('colors.current'),
-      padding: `${theme('spacing.3')} ${theme('spacing.8')}`,
-      lineHeight: theme('leading.tight'),
+      borderColor: config('theme.colors.current'),
+      padding: `${config('theme.spacing.3')} ${config('theme.spacing.8')}`,
+      lineHeight: config('theme.leading.tight'),
     },
   };
 
